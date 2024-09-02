@@ -1,10 +1,19 @@
-import React from "react";
+"use client";
+
+// components
+import Hero from "@/components/Hero";
+
+// implement lenis smooth scroll
+import { ReactLenis } from "lenis/dist/lenis-react";
 
 const Home = () => {
   return (
     <>
-      {/* temporary div */}
-      <div className="h-[8000px]"></div>
+      <ReactLenis root>
+        <Hero />
+        {/* temporary div */}
+        <div className="h-[8000px]"></div>
+      </ReactLenis>
     </>
   );
 };
