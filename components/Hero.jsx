@@ -2,6 +2,10 @@
 
 import { motion, useScroll, useTransform } from "framer-motion";
 
+// components
+import Header from "./Header";
+import Button from "./Button";
+
 const Hero = () => {
   const { scrollY } = useScroll();
 
@@ -14,6 +18,7 @@ const Hero = () => {
 
   return (
     <section className="h-screen xl:h-[1600px] overflow-x-clip relative">
+      <Header />
       <div className="container mx-auto h-full flex items-center xl:items-start">
         {/* text */}
         <motion.div
@@ -31,7 +36,7 @@ const Hero = () => {
             Streamline tasks and manage your time effortlessly with our
             powerful, intuitive, all in one productivity platform.
           </p>
-          <button>Join today</button>
+          <Button btnText="Join today" />
         </motion.div>
         {/* img */}
         <motion.div
