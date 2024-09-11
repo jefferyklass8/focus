@@ -8,6 +8,7 @@ import Hero from "@/components/Hero";
 import Brands from "@/components/Brands";
 import Features from "@/components/Features";
 import Integrations from "@/components/Integrations";
+import Testimonial from "@/components/Testimonial";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
         <Brands />
         <Features />
         <Integrations />
+        <Testimonial />
         {/* temporary div */}
         <div className="h-[8000px]"></div>
       </ReactLenis>
