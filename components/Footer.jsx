@@ -37,7 +37,7 @@ const Footer = () => {
   return (
     <footer className="bg-[#10112f] py-24">
       <div className="container mx-auto">
-        <div className="flex flex-col xl:flex-row items-center gap-12 xl:justify-between">
+        <div className="flex flex-col xl:flex-row items-center gap-12 xl:justify-between xl:px-6">
           {/* socials */}
           <div className="flex-1 flex gap-8">
             {icons.map((icon, index) => {
