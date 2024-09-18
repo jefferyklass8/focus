@@ -93,11 +93,11 @@ const Features = () => {
                   key={itemIndex}
                   className="w-full h-auto xl:h-[480px] flex items-center"
                 >
-                  <div className="w-80vh xl:w-auto mx-auto xl:mx-0">
+                  <div className="w-80vh xl:w-auto mx-auto xl:mx-0 text-center xl:text-left">
                     <h2 className="h2 mb-4">{item.title}</h2>
                     <p className="lead mb-8">{item.description}</p>
                     {/* highlights */}
-                    <div className="flex flex-col gap-5">
+                    <div className="flex flex-col gap-5 items-center xl:items-start">
                       {item.highlights.map((highlight, index) => {
                         return (
                           <div key={index} className="flex items-center gap-4">
