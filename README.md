@@ -3,7 +3,7 @@
 This repository contains the source code for Focus, a productivity-boosting website built with Next.js.
 The README.md file provides an overview of the project and instructions on how to set it up and customize it for your own use.
 
-![Demo](https://github.com/solarluiso/focus/blob/master/public/demo.png)
+![Demo](https://github.com/jefferyklass8/focus/blob/master/public/demo.png)
 
 ## Table of Contents
 
@@ -35,7 +35,7 @@ To get a local copy up and running, follow these simple steps:
 
 1. Clone this repository to your local machine using the following command:
    ```bash
-   git clone https://github.com/solarluiso/focus.git
+   git clone https://github.com/jefferyklass8/focus.git
    ```
 2. Navigate to the project directory:
    ```bash
